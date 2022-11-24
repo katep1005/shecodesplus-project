@@ -1,0 +1,95 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-color: #f6f5f5;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px;
+  border-style: solid;
+  border-color: #476268;
+}
+
+.main-heading {
+  background-color: #c7f2e3;
+  border-radius: 10px;
+  padding: 20px;
+  border-style: solid;
+  border-color: #40a798;
+}
+.weekdays {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth {
+  background-color: #c7f2e3;
+  border-radius: 20px;
+  border-color: #40a798;
+  border-style: solid;
+  padding: 20px;
+}
+
+.temp {
+  font-weight: normal;
+  font-size: 20px;
+}
+.emoji {
+  font-size: 30px;
+  font-weight: normal;
+}
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0;
+  opacity: 50%;
+}
+
+#main-temp {
+  font-weight: normal;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.main-emoji {
+  font-size: 220px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.main-info {
+  opacity: 75%;
+}
+
+footer {
+  font-size: 20px;
+  text-align: center;
+  opacity: 50%;
+  font-family: "VT323", monospace;
+}
+
+.first:hover,
+.second:hover,
+.third:hover,
+.fourth:hover,
+.fifth:hover {
+  background-color: #87e5da;
+  border-color: #40a798;
+  cursor: pointer;
+}
+#units {
+  position: relative;
+  top: -20px;
+}
